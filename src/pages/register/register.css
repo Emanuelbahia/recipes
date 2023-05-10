@@ -1,0 +1,112 @@
+.register-body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: blur(8px);
+    background: linear-gradient(350deg, rgba(27,38,44,1) 11%, rgba(121,120,121,0.9248074229691877) 26%, rgba(27,38,44,1) 63%);
+    background-size: cover;
+    min-height: 80vh;
+
+}
+.img-aurora{
+    width: 100%;
+    height: 900px;
+    padding: 0; 
+}
+.h3-register{
+    font-size: 4vw;
+    padding: 2vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.form-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    padding: 1vw 2vw 2vw 2vw;
+    border-radius: 10px;
+    width: 60vw;
+    margin: 15vw 0;
+    box-shadow: -5px 3px 8px 0px white;
+}
+.label-register{
+    width: 100%;
+    color: white;
+    margin-top: 2vw ;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.field-register{
+    width: 100%;
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    background: #fdfdfd3b;
+    border: none;
+    color:white;
+}
+.button-register{
+    width: 100%;
+    margin: 5vw 0 2vw 0;
+    background-color: #3282B8;
+    height: 4vh;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.p-error{
+    margin: 0;
+    color: white;
+}
+.div-label-field{
+    width: 90%;
+}
+.center-register{
+    width: 90%;
+}
+
+@media (min-width: 481px){ 
+
+    .form-register{
+        width: 50vw;
+        margin: 10vw 0;
+    }
+
+    
+}
+
+  /*media queries pc*/
+
+  @media (min-width: 1024px){  
+
+    .div-label-field{
+        width: 45%;
+    }
+    .form-register{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5vw 0;
+    }
+    .label-register{
+        margin: 1vw 0;
+    }
+    .field-register{
+        height: 3.5vh;
+    }
+    .button-register{
+        margin: 2vw 0 1vw 0;
+        width: 45%;
+    }
+    .center-register{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }

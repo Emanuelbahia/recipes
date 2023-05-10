@@ -1,0 +1,98 @@
+.container-all-categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wraper-img-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+.img-category{
+    width: 90vw;
+    height: 60vw;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.name-cat{
+    margin-bottom: 1vw;
+    color: #0F4C75;
+    font-weight: bold;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.ingredients-recipe{
+    width: 90vw;
+    margin: 2vw 0;
+}
+.ingredient-h4{
+    font-size: 3.5vw;
+    color: #3282B8;
+}
+.ingredient-h3{
+    color: #0F4C75;
+    text-decoration: underline;
+}
+.container-steps-ingredients{
+    margin-left: 3vw;
+}
+
+
+@media (min-width: 481px){ 
+
+    .img-category {
+        width: 80vw;
+        height: 50vw;
+    }
+    .name-cat {
+        width: 80vw;
+    }
+    .ingredients-recipe {
+        width: 80vw;
+        margin: 0;
+    }
+    .ingredient-h3 {
+        font-size: 3vw;
+    }
+    .ingredient-h4 {
+        font-size: 2vw;
+    }
+}
+
+  /*media queries pc*/
+
+  @media (min-width: 1024px){  
+    
+    .container-steps-ingredients{
+        width: 50%;
+        margin-top: 6vw;
+        margin-left: 1vw;
+    }
+    .card-image-ingredients-steps{
+        width: 100%;
+        display: flex;
+    }
+    .name-cat {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+    .img-category {
+        width: 100%;
+        height: 20vw;
+    }
+    .ingredients-recipe {
+        width: 100%;
+        margin: 0;
+    }
+    .wraper-img-name{
+        width: 40%;
+    }
+    .ingredient-h3 {
+        font-size: 1.5vw;
+    }
+    .ingredient-h4 {
+        font-size: 1.2vw;
+    }
+  }

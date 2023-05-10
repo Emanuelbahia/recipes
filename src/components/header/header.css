@@ -1,0 +1,133 @@
+.container-header{
+    background-color: #1B262C;
+    display: flex;
+    align-items: center;
+    height: 18.5vw;
+    flex-direction: column;
+}
+.container-glass-register-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+}
+.container-register-login{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+.container-glass{
+    width: 50%;
+    background-color: #e3eef5;
+    border-radius: 10px;
+    height: 4.5vw;
+    display: flex;
+    align-items: center;
+}
+.input-glass{
+    border: none;
+    height: 3.5vw;
+    width: 80%;
+    background-color: #e3eef5;
+    margin-left: 2vw;
+}
+h1{
+    color: #BBE1FA;
+    font-family: cursive;
+    font-size: 6vw;
+    margin: 0;
+}
+.icon-cook{
+    color: white;
+    font-size: 7vw;
+    margin-right: 1vw;
+}
+.icon-glass{
+    width: 15%;
+    color: #0F4C75;
+    font-size: 4vw;
+    cursor: pointer;
+}
+.h4-register{
+    color: #BBE1FA;
+    font-size: 3vw;
+    margin: 0;
+}
+.icon-menu{
+    color: white;
+    font-size: 4.5vw;
+}
+.div-icon-h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    border-bottom: 1px solid #5e5858;
+}
+.div-menu{
+    width: 15%;
+}
+.dropdown{
+    font-size: 3vw;
+    margin-left: .5vw;
+}
+
+
+@media (min-width: 481px){ 
+
+    .icon-glass{
+        font-size: 3vw;
+    }
+    .h4-register{
+        font-size: 2vw;
+    }
+    .container-glass{
+        height: 3vw;
+    }
+    .input-glass{
+        height: 2.5vw;
+    }
+    
+}
+
+  /*media queries pc*/
+
+  @media (min-width: 1024px){  
+
+    .container-header{
+        flex-direction: row;
+        height: 8vw;
+    }
+    h1{
+        font-size: 3vw;
+    }
+    .icon-cook{
+        font-size: 4vw;
+    }
+    .div-icon-h1{
+        border-bottom: none;
+        width: 50%;
+        padding-left: 0;
+    }
+    .icon-glass{
+        font-size: 1.5vw;
+    }
+    .h4-register{
+        font-size: 1vw;
+    }
+    .container-glass{
+        width: 25vw;
+        height: 2vw;
+    }
+    .container-register-login{
+        width: 30%;
+    } 
+    .input-glass{
+        height: 20px;
+        width: 350px;;
+    }   
+    .container-glass-register-login{
+        justify-content: space-around;
+    }
+  }
