@@ -1,31 +1,11 @@
-install:
+Recipes Food
 
-npm i react-router-dom
+This project is a food recipe application developed with javascript and react.
+You can find a wide variety of traditional recipes from different countries, allowing you to explore and enjoy the global culinary diversity.
+In the search bar you can put an ingredient and look for different recipes with that ingredient.
 
-npm install react-icons --save
+In the project directory, you can run:
 
-npm i axios
+npm run dev
 
-npm install react-bootstrap bootstrap
-
-npm i formik
-
-npm i yup
-
-npm i @reduxjs/toolkit react-redux (se instalan las 2 juntas)
-
-npm i react-scroll-parallax
-
-palettes:
-
-gris oscuro
-#1B262C
-
-azul
-#0F4C75
-
-celeste oscuro
-#3282B8
-
-celeste claro
-#BBE1FA
+Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
