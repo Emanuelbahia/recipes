@@ -13,10 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ParallaxProvider>
     <Provider store={store}>
-      <BrowserRouter>
-        
-          <App />
-        
+      <BrowserRouter>   
+          <App />       
       </BrowserRouter>   
     </Provider>
     </ParallaxProvider>
