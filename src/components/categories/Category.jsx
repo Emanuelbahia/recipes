@@ -32,7 +32,7 @@ function Category() {
         subCatDishes,
         loading
       } = useAxiosCategories();
-
+console.log(subCatDishes)
     //con el Link la envio a category/tag y en esa pagina agarro el tag con useParams para poder mostrar las recetas de esa categoria.
     return ( 
         <>
@@ -94,8 +94,8 @@ function Category() {
                     {
                         subCatCuisines.map(c => {
                             return (
-                                <Link to={`category/${c.display.tag}`}>
-                                    <h3 className="subcategory-h3" key={ c.display.displayName } >{ c.display.displayName }</h3>
+                                <Link to={`category/${c.display.tag}`} key={ c.display.displayName } >
+                                    <h3 className="subcategory-h3" >{ c.display.displayName }</h3>
                                 </Link>
                             ) 
                         })
@@ -111,8 +111,8 @@ function Category() {
                     {
                         subCatCourses.map(c => {
                             return (
-                                <Link to={`category/${c.display.tag}`}>
-                                    <h3 className="subcategory-h3" key={ c.display.displayName } >{ c.display.displayName }</h3>
+                                <Link to={`category/${c.display.tag}`} key={ c.display.displayName } >
+                                    <h3 className="subcategory-h3" >{ c.display.displayName }</h3>
                                 </Link>
                             ) 
                         })
@@ -128,8 +128,8 @@ function Category() {
                     {
                         subCatDiets.map(c => {
                             return (
-                                <Link to={`category/${c.display.tag}`}>
-                                    <h3 className="subcategory-h3" key={ c.display.displayName } >{ c.display.displayName }</h3>
+                                <Link to={`category/${c.display.tag}`} key={ c.display.displayName }>
+                                    <h3 className="subcategory-h3"  >{ c.display.displayName }</h3>
                                 </Link>
                             ) 
                         })
@@ -145,8 +145,8 @@ function Category() {
                     {
                         subCatDishes.map(c => {
                             return (
-                                <Link to={`category/${c.display.tag}`}>
-                                    <h3 className="subcategory-h3" key={ c.display.displayName } >{ c.display.displayName }</h3>
+                                <Link to={`category/${c.display.tag}`} key={ c.display.displayName } >
+                                    <h3 className="subcategory-h3" >{ c.display.displayName }</h3>
                                 </Link>
                             ) 
                         })

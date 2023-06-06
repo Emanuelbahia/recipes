@@ -76,7 +76,7 @@
     }
     .name-cat {
         width: 100%;
-        font-size: 2.5vw;
+        font-size: 3.5vh;
     }
     .img-category {
         width: 100%;
@@ -90,9 +90,10 @@
         width: 40%;
     }
     .ingredient-h3 {
-        font-size: 1.5vw;
+        font-size: 3vh;
     }
     .ingredient-h4 {
         font-size: 1.2vw;
+        margin: 0.2vh;
     }
   }

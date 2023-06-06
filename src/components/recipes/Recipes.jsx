@@ -28,9 +28,9 @@ function Recipes() {
                                 <div className="ingredients-recipe" >
                                     <h3 className="ingredient-h3">Ingredients:  </h3>                               
                                         {                                      
-                                            r.content.ingredientLines.map(p => {
+                                            r.content.ingredientLines.map((p, i) => {
                                                 return (
-                                                    <h4 className="ingredient-h4">{ p.wholeLine }</h4>
+                                                    <h4 className="ingredient-h4" key={`${i} ${p[0]}`} >{ p.wholeLine }</h4>
                                                 )
                                         })                                    
                                         }                                                                      
@@ -40,9 +40,9 @@ function Recipes() {
                                 <div className="ingredients-recipe">
                                     <h3 className="ingredient-h3">Steps:</h3>
                                 {                               
-                                    r.content.preparationSteps.map(p => {
+                                    r.content.preparationSteps.map((p, i) => {
                                         return (
-                                            <h4 className="ingredient-h4">{ p }</h4>
+                                            <h4 className="ingredient-h4" key={`${i} ${p[0]}`} >{ p }</h4>
                                         )
                                     })                            
                                 }

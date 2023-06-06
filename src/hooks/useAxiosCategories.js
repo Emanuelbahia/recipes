@@ -18,7 +18,7 @@ export function useAxiosCategories() {
   const [subCatCourses, setSubCatCourses] = useState([]);
   const [subCatDiets, setSubCatDiets] = useState([]);
   const [subCatDishes, setSubCatDishes] = useState([]);
-
+  console.log(subCatDishes);
   const [loading, setLoading] = useState(true);
 
   const options = {
