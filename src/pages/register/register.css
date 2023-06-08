@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: flex-start;
     backdrop-filter: blur(8px);
-    background: linear-gradient(350deg, rgba(27,38,44,1) 11%, rgba(121,120,121,0.9248074229691877) 26%, rgba(27,38,44,1) 63%);
+    background: linear-gradient(359deg, rgba(27,38,44,1) 42%, rgb(121 120 120 / 30%) 61%, rgba(27,38,44,1) 70%);
     background-size: cover;
     min-height: 80vh;
 
